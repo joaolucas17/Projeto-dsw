@@ -1,6 +1,5 @@
-const PeticaoModel = require("../Models/PeticaoModels");
+const PeticaoModel = require("../models/peticaoModels");
 const Joi = require('joi');
-const { deletePeticao } = require("../models/peticaoModels");
 const autenticacao = require("../../config/autenticacao");
 const { ObjectId } = require("mongodb")
 const jwt = require('jsonwebtoken');

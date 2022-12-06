@@ -1,4 +1,4 @@
-const client = require('../../config/dbConnection');
+const client = require('../../config/dbconnection');
 const { ObjectId } = require("mongodb")
 module.exports = class PeticaoModel {
 

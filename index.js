@@ -1,5 +1,5 @@
 const app = require('./config/server');
-const routes = require('./app/Routes/peticaoRoutes');
+const routes = require('./app/routes/peticaoRoutes');
 // require('./startup/prod')(app)
 
 routes.getPeticao(app);
