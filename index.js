@@ -9,3 +9,4 @@ routes.deletePeticao(app);
 routes.addUsuario(app);
 routes.addAutenticacao(app);
 routes.addAssinatura(app);
+module.exports = app
